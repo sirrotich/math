@@ -13,3 +13,18 @@ body {
   color: white;
   font-size: 20px;
 }
+#style {
+  color: white;
+  font-size: 20px;
+
+}
+#text-box {
+  font-size: 20px;
+  font-style: italic;
+  text-transform: capitalize;
+  color: 	#8A2BE2; /* BlueViolet */
+  border-style: solid grey;
+  padding: 5px;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 30px;
+}
