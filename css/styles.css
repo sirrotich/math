@@ -1,4 +1,12 @@
-h2 {
-  color: black;
+#h1 {
+  color: white;
   text-align: center;
+  font-size: 34px;
+}
+body {
+  background-image: url("../images/image1.jpg");
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: 0;
+  background-size: cover;
 }

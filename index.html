@@ -3,12 +3,13 @@
 <head>
   <title>triangle-tracker</title>
    <!--a link added to import css to inde.tml to build up a good structure-->
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
 <body>
  <header>
-  <h1>Triangle-tracker</h1>
+  <h1 id="h1">Triangle-tracker</h1>
  </header>
-  <div id="div">
+  <div id="text-box">
     <marquee behavior="alternate">Input figures i'll help trace you out!</marquee>
   </div>
   <br>
@@ -25,12 +26,16 @@
       <label for="side3">side3</label><br>
       <input type="number" id="side1"></input>
     </form>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <br>
      <!--button collects the form response and displays it-->
-    <button type="button" onclick= "<showResults" id="result">Run test</button>
+    <button type="button" onclick= "showResults()" id="result">Run test</button>
   </div>
   <br>
   <h2 id="output"></h2>
   <div class="footer">
     <h2>Have fun!</h2>
   </div>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
