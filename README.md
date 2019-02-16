@@ -1,10 +1,7 @@
 ##Triangle-tracker
-
 Triangle-tracker is a application site which enables user to identify which triangle can he form acoording to the three input digits he have.
-
 ##contributors
 moringa school lms
-
 ##Description
 Triangle tracker is a web application which helps in giving tracks to identify different types of triangle according to user three input digits
 ## Setup/Installation Requirements
