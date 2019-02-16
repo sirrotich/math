@@ -45,3 +45,7 @@ body {
   color: white;
   text-align: right;
 }
+#footer {
+  color: crimson;
+  padding: 15px;
+}
