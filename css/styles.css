@@ -6,7 +6,7 @@
 body {
   background-image: url("../images/image1.jpg");
   text-align: center;
-  background-size: auto;
+  background-repeat: no-repeat;
   padding: 8px;
 }
 #button {
@@ -22,7 +22,7 @@ body {
   font-size: 20px;
   font-style: italic;
   text-transform: capitalize;
-  color: 	#8A2BE2; /* BlueViolet */
+  color: pink;
   border-style: solid grey;
   padding: 5px;
   border: 2px solid #4CAF50; /* Green */
