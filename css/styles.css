@@ -4,9 +4,9 @@
   font-size: 34px;
 }
 body {
-  background-image: url("../images/image1.jpg");
+  background-image: url("../images/image2.jpg");
   text-align: center;
-  background-repeat: no-repeat;
+  background-repeat: cover;
   padding: 8px;
 }
 #button {
@@ -31,8 +31,9 @@ body {
 #side1 {
     border: 2px solid #DB7093; /* palevioletRed */
     border-radius: 30px;
-    color: grey;
+    color: black;
     padding: 18px;
+    background-color: pink;
 }
 #result {
   padding: 7px;
