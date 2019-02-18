@@ -16,7 +16,6 @@ body {
 #style {
   color: white;
   font-size: 20px;
-
 }
 #text-box {
   font-size: 20px;
@@ -28,7 +27,19 @@ body {
   border: 2px solid #4CAF50; /* Green */
   border-radius: 30px;
 }
-#side1 {
+#a {
+    border: 2px solid #DB7093; /* palevioletRed */
+    border-radius: 30px;
+    color: grey;
+    padding: 18px;
+}
+#b {
+    border: 2px solid #DB7093; /* palevioletRed */
+    border-radius: 30px;
+    color: grey;
+    padding: 18px;
+}
+#c {
     border: 2px solid #DB7093; /* palevioletRed */
     border-radius: 30px;
     color: grey;
