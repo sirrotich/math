@@ -1,13 +1,8 @@
-#Triangle-tracker
-
-Triangle-tracker is a application site which enables user to identify which triangle can he form acoording to the three input digits he have.
-
-####contributors
-
-moringa school lms
-
-###Description
-Triangle tracker is a web application which helps in giving tracks to identify different types of triangle according to user three input digits
+# {Triangle -tracker}
+#### {this web app helps one determine the type of triaangle according to different input values}, {2019}
+#### By **{moringa school lms}**
+## Description
+{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
 To setup this , in an easy way cloning this repository on the link below
 https://github.com/sirrotich/math.git

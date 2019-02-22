@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>triangle-tracker</title>
    <!--a link added to import css to inde.tml to build up a good structure-->
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet">
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
@@ -17,28 +20,35 @@
 
   <div id="button">
     <!--this prompt-out input space-->
-    <form id="style" action="index.html" method="post">
+    <form id="sides" action="index.html" method="post">
+     <div class=sides>
       <label for="side1">side1</label><br><br>
-      <input type="number" id="a"></input>
+      <input type="text" id="a">
+     </div>
       <br><br>
+     <div class=sides>
       <label for="side2">side2</label><br>
-      <input type="number" id="b"></input>
+      <input type="text" id="b">
+     </div>
       <br><br>
+     <div class=sides>
       <label for="side3">side3</label><br>
-      <input type="number" id="c"></input>
+      <input type="text" id="c">
+     </div>
       <br><br>
+      <button onclick="showResults">Find out</button>
 
-    <br>
+    </form>
     <!--button collects the form response and displays it-->
-    <button type="submit" onclick="showResults()" id="result"> Run test</button>
+   </div>
 
-  </div>
-  <br>
+   <br>
   <!--output value displays the results-->
   <h2 id="output"></h2>
   <div id="footer">
     <h2>Have fun!</h2>
   </div>
-    <script type="text/javascript" src="js/scripts.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+ <script src="js/scripts.js"></script>
 </body>
 </html>
