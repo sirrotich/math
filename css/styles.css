@@ -1,13 +1,17 @@
-#h1 {
+h1 {
   color: white;
   text-align: center;
   font-size: 34px;
+  font-style: obligue;
 }
 body {
-  background-image: url("../images/image2.jpg");
+  background-image: url("../images/image1.jpg");
   text-align: center;
-  background-repeat: cover;
+  background-size: cover;
   padding: 8px;
+}
+.we {
+  color: white;
 }
 #button {
   color: white;
@@ -28,7 +32,21 @@ body {
   border: 2px solid #4CAF50; /* Green */
   border-radius: 30px;
 }
-#side1 {
+#a {
+    border: 2px solid #DB7093; /* palevioletRed */
+    border-radius: 30px;
+    color: black;
+    padding: 18px;
+    background-color: pink;
+}
+#b {
+    border: 2px solid #DB7093; /* palevioletRed */
+    border-radius: 30px;
+    color: black;
+    padding: 18px;
+    background-color: pink;
+}
+#c {
     border: 2px solid #DB7093; /* palevioletRed */
     border-radius: 30px;
     color: black;
@@ -38,9 +56,9 @@ body {
 #result {
   padding: 7px;
   border: 2px solid skyblue;
-  border-radius: 30px;
-  background-color: black;
-  color: white;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
 }
 #output {
   color: white;

@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>triangle-tracker</title>
-   <!--a link added to import css to inde.tml to build up a good structure-->
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+ <head>
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-</head>
-<body>
- <header>
-  <h1 id="h1">Triangle-tracker</h1>
- </header>
-  <div id="text-box">
-    <marquee behavior="alternate">Input figures i'll help trace you out!</marquee>
-  </div>
-  <br>
+   <script src="js/scripts.js"></script>
+   <title>Triangle Tracker</title>
+ </head>
+ <body>
+   <div class="container">
+ <h1>TRIANGLE TRACKER</h1>
+ <div id="text-box">
+ <marquee behaviour="alternate">input figures ill help trace you out!</marquee>
+</div>
 
-  <div id="button">
-    <!--this prompt-out input space-->
-    <form id="style" action="index.html" method="post">
-      <label for="side1">side1</label><br><br>
-      <input type="number" id="side1"></input>
-      <br><br>
-      <label for="side2">side2</label><br>
-      <input type="number" id="side1"></input>
-      <br><br>
-      <label for="side3">side3</label><br>
-      <input type="number" id="side1"></input>
-    </form>
+       <form id="triangle-tracker">
+         <div class="form-group">
+           <label for="a" class="we">Enter a:<br><br></label>
+           <input id="a" type="text">
+         </div>
+         <br>
+         <div class="form-group">
+           <label for="b" class="we">Enter b:<br><br></label>
+           <input id="b" type="text">
+         </div>
+         <br>
+         <div class="form-group">
+           <label for="c" class="we">Enter c:<br><br></label>
+           <input id="c" type="text">
+         </div>
+         <br>
 
-    <br>
-     <!--button collects the form response and displays it-->
-    <button type="submit" onclick= "showResults()" id="result">Run test</button>
-  </div>
-  <br>
-  <!--output value displays the results-->
-  <h2 id="output"></h2>
-  <div id="footer">
-    <h2>Have fun!</h2>
-  </div>
- <script type="text/javascript" src="js/scripts.js"></script>
-</body>
+         <button type="submit" onclick="triangles()">TRY OUT</button>
+         
+       </form>
+       <br>
+
+     </div>
+
+ </body>
 </html>
