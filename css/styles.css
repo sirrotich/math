@@ -1,4 +1,4 @@
-#h1 {
+h1 {
   color: white;
   text-align: center;
   font-size: 34px;
@@ -26,6 +26,9 @@ body {
   padding: 5px;
   border: 2px solid #4CAF50; /* Green */
   border-radius: 30px;
+}
+.we {
+  color: white;
 }
 #a {
     border: 2px solid #DB7093; /* palevioletRed */
